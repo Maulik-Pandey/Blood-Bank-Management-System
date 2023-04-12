@@ -26,54 +26,61 @@
 </div>
 
 <!--------LOGIN SECTION------------------->
-
-<div class="container">
-    <div class="login__content">
-        <form action="" class="login__form">
-            <div>
-                <h1 class="login__title">
-                    <span>Welcome</span> Back
-                </h1>
-                <p class="login__decription">
-                    Kindly Login to Continue
-                </p>
+<div id="login">
+    <div class="container">
+        <div class="row">
+            <div class="login-left">
+                <img src="images/login.png" alt="Login">
             </div>
-
-
-            <div>
-                <div class="login__inputs">
+            <div class="login__content">
+                <form action="" class="login__form">
                     <div>
-                        <label for="" class="login__label">E-mail</label>
-                        <input type="email" placeholder="Enter E-mail Address" required class="login__input">
+                        <h1 class="login__title">
+                            <span>Welcome</span> Back
+                        </h1>
+                        <p class="login__decription">
+                            Kindly Login to Continue
+                        </p>
                     </div>
 
+
                     <div>
-                        <label for="" class="login__label">Password</label>
-                        <div class="login__box">
-                            <input type="password" placeholder="Enter Strong Password" required class="login__input" id="iput-password">
-                            <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                        <div class="login__inputs">
+                            <div>
+                                <label for="" class="login__label">E-mail</label>
+                                <input type="email" placeholder="Enter E-mail Address" required class="login__input">
+                            </div>
+
+                            <div>
+                                <label for="" class="login__label">Password</label>
+                                <div class="login__box">
+                                    <input type="password" placeholder="Enter Strong Password" required class="login__input" id="iput-password">
+                                    <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="login__check">
+                            <input type="checkbox" class="login__check-input">
+                            <label for="" class="login__check-label">Remember Me</label>
                         </div>
                     </div>
 
-                </div>
+                    <div>
+                        <div class="login__buttons">
+                            <button class="login__button">LogIn</button><a href="#" class="login__forgot">Forgot Password?</a>
 
-                <div class="login__check">
-                    <input type="checkbox" class="login__check-input">
-                    <label for="" class="login__check-label">Remember Me</label>
-                </div>
+                        </div>
+
+
+                    </div>
+                </form>
             </div>
-
-            <div>
-                <div class="login__buttons">
-                    <button class="login__button">LogIn</button><a href="#" class="login__forgot">Forgot Password?</a>
-
-                </div>
-
-
-            </div>
-        </form>
+        </div>
     </div>
 </div>
+
 <!-------JS-------->
 <script src="login.js"></script>
 

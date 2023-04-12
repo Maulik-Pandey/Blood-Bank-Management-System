@@ -70,7 +70,11 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
-
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 /*=============== LOGIN FORM STYLE ===============*/
 .login__content,
@@ -79,13 +83,19 @@ nav ul li a:hover::after{
     display: grid;
 }
 
+/*--------------Login Image and Form Row-----------*/
+.login-left{
+    flex-basis: 30%;
+    margin-top: 10px;
+}
+
 .login__content {
-    margin-top: -55px;
+    margin-top: -700px;
     position: relative;
     height: 100vh;
     align-items: center;
     width: 50%;
-    margin-left: 420px;
+    margin-left: 623px;
 }
 
 .login__img {

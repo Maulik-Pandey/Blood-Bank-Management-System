@@ -139,9 +139,12 @@ nav ul li a:hover::after{
 }
 
 /*---------portfolio-----------*/
+.blood-group-left{
+    margin-top: -76px;
+}
 
 .blood-table-right{
-    margin-top: 100px;
+    margin-top: 0;
     margin-right: 233px;
 }
 .blood-table-right tr{
@@ -174,7 +177,10 @@ nav ul li a:hover::after{
 }
 /*-----contact----*/
 .contact-left{
-    justify-content: center;
+    margin-top: 190px;
+}
+.email-phone ul{
+    margin-left: 10px;
 }
 .contact-right{
     flex-basis: 30%;

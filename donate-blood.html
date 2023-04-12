@@ -20,51 +20,69 @@
       </ul>
       <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
-    <div class="empty"></div>
-    <h2>One donation can save <span>3 lives</span><br></h2>
-    <div class="donate-img"><img src="images/donate-blood.gif"></div>
+    <div class="header-text"><h2>One donation can save <span>3 lives</span><br></h2>
   </div>
 </div>
-<!-------login form for donate blood-------->
-<div id="donate-blood">
-  <div class="container">
-    <div class="row">
-      <div class="contact-left">
-        <h1 class="subtitle">Contact Us</h1>
-        <p><i class="fa-solid fa-phone-office"></i> heilerco@gmail.com</p>
-        <p><i class="fa-solid fa-phone-office"></i> +91-123456789</p>
-      </div>
-      <div class="contact-right">
-        <form>
-          <h2>Enter your Details</h2>
-          <input type="text" name="name" placeholder="Your Full Name" required>
-          <input type="number" name="age" placeholder="Your Age" required>
-          <input type="number" name="phone" placeholder="Your Phone Number" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <select name="blood-group" size="1">
-            <option><h4>Choose you Blood Group</h4></option>
-            <option>A+</option>
-            <option>B+</option>
-            <option>A-</option>
-            <option>B-</option>
-            <option>AB+</option>
-            <option>AB-</option>
-            <option>O+</option>
-            <option>O-</option>
-          </select>
-          <select name="gender" size="1">
-            <option><h4>Gender</h4></option>
-            <option>Male</option>
-            <option>Female</option>
-          </select>
-          <button type="submit" class="btn btn2"><font color="#fff">Submit</font></button>
-        </form>
+    <!-------DONOR DETAILS-------->
+    <div id="donor-details">
+      <div class="container">
+        <div class="row">
+          <div class="donor-left">
+            <img src="images/donate-blood.gif" alt="Donate Blood">
+          </div>
+          <div class="donor-right">
+            <form>
+              <h2>Enter your Details</h2>
+              <label>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+              </label>
+              <label>
+                <input type="number" name="age" placeholder="Your Age" required>
+              </label>
+              <label>
+                <input type="number" name="phone" placeholder="Your Phone Number" required>
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Your Email" required>
+              </label>
+              <label>
+                <select name="blood-group" size="1">
+                  <option><h4>Choose you Blood Group</h4></option>
+                  <option>A+</option>
+                  <option>B+</option>
+                  <option>A-</option>
+                  <option>B-</option>
+                  <option>AB+</option>
+                  <option>AB-</option>
+                  <option>O+</option>
+                  <option>O-</option>
+                </select>
+              </label>
+              <label>
+                <input type="number" name="unit" placeholder="Number of blood units" required>
+              </label>
+              <label class="upload">
+                <input type="file" name="prescription" id="upload-btn" placeholder="Upload your Prescription" required hidden>
+              </label>
+              <label>
+                <select name="gender" size="1">
+                  <option><h4>Gender</h4></option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </label>
+              <button type="submit" class="btn btn2"><font color="#fff">Submit</font></button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="copyright">
-    <p><font color="#fff">Copyright Maulik. All rights reserved. 2023</font></p>
-  </div>
 </div>
+
+
+  <div class="copyright">
+    <p><font color="#fff">Copyright &#169; Heiler CO. All rights reserved. 2023</font></p>
+  </div>
 </body>
 </html>

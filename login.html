@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
-    <title>Heiler Co.</title>
+    <title>Log-In</title>
     <link rel="icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.css">
     <script src="https://kit.fontawesome.com/f867f983a3.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,78 +18,69 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="donate-blood.html" target="_blank">Donate Blood</a></li>
                 <li><a href="request-blood">Request Blood</a></li>
-                <li><a href="login">Login</a></li>
+                <li><a href="login.html">Login</a></li>
                 <li><a href="team.html">Our Team</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
     </div>
 </div>
+
 <!--------LOGIN SECTION------------------->
+
+<div class="container">
+    <div class="login__content">
+        <form action="" class="login__form">
+            <div>
+                <h1 class="login__title">
+                    <span>Welcome</span> Back
+                </h1>
+                <p class="login__decription">
+                    Kindly Login to Continue
+                </p>
+            </div>
+
+
+            <div>
+                <div class="login__inputs">
+                    <div>
+                        <label for="" class="login__label">E-mail</label>
+                        <input type="email" placeholder="Enter E-mail Address" required class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="" class="login__label">Password</label>
+                        <div class="login__box">
+                            <input type="password" placeholder="Enter Strong Password" required class="login__input" id="iput-password">
+                            <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="login__check">
+                    <input type="checkbox" class="login__check-input">
+                    <label for="" class="login__check-label">Remember Me</label>
+                </div>
+            </div>
+
+            <div>
+                <div class="login__buttons">
+                    <button class="login__button">LogIn</button><a href="#" class="login__forgot">Forgot Password?</a>
+
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+</div>
+<!-------JS-------->
+<script src="login.js"></script>
 
 <!---------COPYRIGHT SECTION------------->
 <div class="copyright">
     <p><font color="#fff">Copyright &#169; Heiler CO. All rights reserved. 2023</font></p>
 </div>
-=======
-    <link rel="stylesheet" href="login.css">
-    <title>login page</title>
-</head>
-<body>
-    <div class="container">
-        <div class="login__content">
-            <form action="" class="login__form">
-                <div>
-                    <h1 class="login__title">
-                        <span>Welcome</span> Back
-                    </h1>
-                    <p class="login__decription">
-                        Kindly Login to Continue
-                    </p>
-                </div>
-
-
-                <div>
-                    <div class="login__inputs">
-                        <div>
-                            <label for="" class="login__label">E-mail</label>
-                            <input type="email" placeholder="Enter E-mail Address" required class="login__input">
-                        </div>
-
-                        <div>
-                            <label for="" class="login__label">Password</label>
-                            <div class="login__box">
-                                <input type="password" placeholder="Enter Strong Password" required class="login__input" id="iput-password">
-                                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="login__check">
-                        <input type="checkbox" class="login__check-input">
-                        <label for="" class="login__check-label">Remember Me</label>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="login__buttons">
-                        <button class="login__button">LogIn</button>
-                        <button class="login__button login__button-ghost">SignUp</button>
-
-                    </div>
-
-                    <a href="#" class="login__forgot">Forgot Password?</a>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
-
-    <script src="login.js"></script>
->>>>>>> Stashed changes
 </body>
 
 </html>

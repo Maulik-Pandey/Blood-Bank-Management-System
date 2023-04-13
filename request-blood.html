@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Blood</title>
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="request-blood.css">
+  <script src="https://kit.fontawesome.com/f867f983a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate-blood.html">Donate Blood</a></li>
+        <li><a href="request-blood.html">Request Blood</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text"><h2>HEILER can give you any blood  <span>Just Ask it!</span><br></h2>
+  </div>
+</div>
+    <!-------Patient DETAILS-------->
+    <div id="donor-details">
+      <div class="container">
+        <div class="row">
+          <div class="patient-left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfVdq2o_Q6Xfj_oaKJAUXP2JqgT3KMg1qRg&usqp=CAU" alt="Donate Blood" width="450px">
+          </div>
+          <div class="patient-right">
+            <form>
+              <h2>Enter Patient Details</h2>
+              <label>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+              </label>
+              <label>
+                <input type="number" name="age" placeholder="Your Age" required>
+              </label>
+              <label>
+                <input type="number" name="phone" placeholder="Your Phone Number" required>
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Your Email" required>
+              </label>
+              <label>
+                <select name="blood-group" size="1">
+                  <option><h4>Choose you Blood Group</h4></option>
+                  <option>A+</option>
+                  <option>B+</option>
+                  <option>A-</option>
+                  <option>B-</option>
+                  <option>AB+</option>
+                  <option>AB-</option>
+                  <option>O+</option>
+                  <option>O-</option>
+                </select>
+              </label>
+              <label>
+                <input type="number" name="unit" placeholder="Number of blood units required" required>
+              </label>
+              <label class="upload">
+                Prescription<input type="file" name="prescription" id="upload-btn" placeholder="Upload your Prescription" required hidden>
+              </label>
+              <label>
+                <select name="gender" size="1">
+                  <option><h4>Gender</h4></option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </label>
+              <label>
+                <textarea placeholder="Enter your Address" id="address"></textarea>
+              </label>
+              <button type="submit" class="btn btn2"><font color="#fff">Submit</font></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="copyright">
+    <p><font color="#fff">Copyright &#169; Heiler CO. All rights reserved. 2023</font></p>
+  </div>
+</body>
+</html>

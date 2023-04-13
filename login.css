@@ -233,13 +233,6 @@ nav ul li a:hover::after{
     cursor: pointer;
 }
 
-.login__button-ghost {
-    background: #ff004f;
-    border: 2px solid #ff004f;
-    color: #fff;
-    color: hsl(0, 0%, 100%);
-    box-shadow: none;
-}
 
 .login__forgot {
     font-size: var(--smaller-font-size);

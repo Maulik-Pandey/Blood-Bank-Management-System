@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Blood</title>
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="request-blood.css">
+  <script src="https://kit.fontawesome.com/f867f983a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <ul id="sidemenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="donate-blood.html">Donate Blood</a></li>
+        <li><a href="request-blood.html">Request Blood</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text"><h2>HEILER can do all what it takes to give you a life <br><span>Just Ask it!</span><br></h2>
+  </div>
+</div>
+    <!-------Patient DETAILS-------->
+    <div id="donor-details">
+      <div class="container">
+        <div class="row">
+          <div class="patient-left">
+            <img src="data:image/png;base64,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" alt="Request Blood" width="500px" height="350px">
+          </div>
+          <div class="patient-right">
+            <form>
+              <h2>Enter Patient Details</h2>
+              <label>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+              </label>
+              <label>
+                <input type="number" name="age" placeholder="Your Age" required>
+              </label>
+              <label>
+                <input type="number" name="phone" placeholder="Your Phone Number" required>
+              </label>
+              <label>
+                <input type="email" name="email" placeholder="Your Email" required>
+              </label>
+              <label>
+                <select name="blood-group" size="1">
+                  <option><h4>Choose you Blood Group</h4></option>
+                  <option>A+</option>
+                  <option>B+</option>
+                  <option>A-</option>
+                  <option>B-</option>
+                  <option>AB+</option>
+                  <option>AB-</option>
+                  <option>O+</option>
+                  <option>O-</option>
+                </select>
+              </label>
+              <label>
+                <input type="number" name="unit" placeholder="Number of blood units required" required>
+              </label>
+              <label class="upload">
+                Prescription<input type="file" name="prescription" id="upload-btn" placeholder="Upload your Prescription" required hidden>
+              </label>
+              <label>
+                <select name="gender" size="1">
+                  <option><h4>Gender</h4></option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                </select>
+              </label>
+              <label>
+                <textarea placeholder="Enter your Address" id="address"></textarea>
+              </label>
+              <button type="submit" class="btn btn2"><font color="#fff">Submit</font></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="copyright">
+    <p><font color="#fff">Copyright &#169; Heiler CO. All rights reserved. 2023</font></p>
+  </div>
+</body>
+</html>
